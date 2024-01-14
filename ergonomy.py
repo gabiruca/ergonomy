@@ -8,7 +8,7 @@ class ergonomy_gui(QMainWindow):
         uic.loadUi("ergonomy.ui",self)
         self.lineEdit.setEnabled(False)
         self.pushButton_2.clicked.connect(self.seleccion_handler)
-        #self.inadecuada()
+        self.pushButton.clicked.connect(self.analizar)
 
     def seleccion_handler(self):
         self.d_box()
@@ -19,13 +19,9 @@ class ergonomy_gui(QMainWindow):
         print(path)
         self.photo.setPixmap(QtGui.QPixmap(path))
         self.photo.setScaledContents(True)
-        self.inadecuada()
 
-
-    def adecuada(self):
-        self.lineEdit.setText("Postura adecuada")
-    
-    def inadecuada(self):
+    def analizar(self):
+        #self.lineEdit.setText("Postura adecuada")
         self.lineEdit.setText("Postura inadecuada")
 
 if __name__== '__main__':
