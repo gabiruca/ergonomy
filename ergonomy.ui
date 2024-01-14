@@ -70,7 +70,7 @@
      <string notr="true">background-color: #638889; font-size: 20px; color: white;</string>
     </property>
     <property name="text">
-     <string>sample text</string>
+     <string></string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
