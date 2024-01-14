@@ -198,7 +198,7 @@
      </property>
     </widget>
    </widget>
-   <widget class="QGraphicsView" name="graphicsView">
+   <widget class="QLabel" name="photo">
     <property name="geometry">
      <rect>
       <x>580</x>
@@ -206,6 +206,12 @@
       <width>401</width>
       <height>331</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #EBD9B4;</string>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
