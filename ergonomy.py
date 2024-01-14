@@ -19,6 +19,7 @@ class ergonomy_gui(QMainWindow):
         print(path)
         self.photo.setPixmap(QtGui.QPixmap(path))
         self.photo.setScaledContents(True)
+        self.inadecuada()
 
 
     def adecuada(self):
